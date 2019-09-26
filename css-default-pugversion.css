@@ -15,6 +15,7 @@ body {
     background-color: black;
     font-family: 'Poller One', cursive;
     cursor: url(oth28.cur),auto;
+    /*ALL CREDIT GOES TO http://www.rw-designer.com/cursor-set/star-wars-lightsabers FOR THE AWESOME CURSOR.*/
 }
 
 
@@ -236,6 +237,7 @@ table .username:last-of-type:before{
 
 tr .username:last-of-type:before{
     content: "Jedi Master";
+    color: white;
 }
     
 
@@ -256,8 +258,8 @@ USERNAME STUFF
 .grade:before{
     content: "Grade:";
 }
+
 table{
-    font-size: 30px;
     border: 5px solid blue;
 }
 
@@ -377,4 +379,8 @@ iframe{
 
 .rubric_score input{
     float: none;
+}
+th, td{
+    padding: 10px 20px 30px;
+    border-top: 5px solid blue;
 }
