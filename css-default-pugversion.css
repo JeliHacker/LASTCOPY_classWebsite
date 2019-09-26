@@ -305,11 +305,11 @@ ANIMATION
 }
 
 
-
+/*
 .person_image:first-of-type{
     float: right;
 }
-
+*/
 
 
 
@@ -325,15 +325,15 @@ MY ACCOUNT PAGE
 
 
 label{
-    font-size: 40px;
-    line-height: 150px;
-    clear: left;
+    font-size: 20px;
+    border: 5px solid blue;
     float: left;
+    clear: left;
 }
 
 input{
-    font-size: 30px;
-    line-height: 150px;
+    font-size: 20px;
+    float: left;
 }
 
 iframe{
@@ -342,8 +342,13 @@ iframe{
 }
 
 .account_form{
-    line-height: 150px;
 }
 
+.person_info .person_image{
+    float:right;
+}
+.person_image{
+    float:left;
+}
 
 
