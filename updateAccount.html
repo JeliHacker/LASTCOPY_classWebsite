@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<HTML>
+  <head><title>
+
+    Account Page
+    
+    </title>
+
+<link rel="stylesheet" type="text/css" href="https://jelihacker.github.io/Fixing-the-portal/css-default-pugversion.css">
+  
+<link rel="stylesheet" type="text/css" href="/css/seating.css">
+
+  </head>
+  <body>
+    <div class="header">
+      
+      <div class="person_info">
+  <img src="/img/students/student20.png"  class="person_image" />
+  <audio id="nameSound20">
+    <source src="/names/student20.png" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound20").play()''
+    >
+  </div>
+
+  <span class="username">
+    Eli Gooch
+  </span>
+  
+</div>
+      
+        <div class="nav">
+        <a  href="\logout">logout</a>
+        <a href="\updateAccount">myAccount</a>
+        <a href="\home">Home</a>
+        <a href="\classMates">ClassMates</a>
+        <a href="\seating">Seating</a>
+        
+        
+        <a href="\grades">Grades</a>    
+            
+      </div>
+       
+    </div>
+    <div class="special" id="special1"></div>
+    <div class="special" id="special2"></div>
+    <div class="special" id="special3"></div>
+<form class="account_form" action="/updateAccount" method="post"
+encType="multipart/form-data">
+
+<div class="title">
+  Update your account
+</div>
+
+<label>First Name</label>
+<input type="text" name="person_first_name" value="James " />
+<label>Prefered Name</label>
+<input type="text" name="person_prefered_name" value="Eli " />
+<label>Last Name</label>
+<input type="text" name="person_last_name" value="Gooch " />
+<label>Prefered Pronouns</label>
+<input type="text" name="person_prefered_pronoun" value="he series " />
+<label>What Cause drives you? </label>
+<input type="text" name="cause_desc" value="Oreo thins " />
+
+
+<label>Your Profile Picture</label>
+<img class="person_image" src="/img/students/student20.png"
+alt="Eli Gooch" />
+
+<input type="file" name="person_image_file" value="Upload New Picture" />
+
+<label>Your spoken name, in OGG format</label>
+<input type="file" name="person_voice_name_file" value="Upload OGG sound" />
+
+<label> Your prefered CSS account </label>
+<input type="text" name="person_css" value="https://jelihacker.github.io/Fixing-the-portal/css-default-pugversion.css" />
+
+<input type="submit" name="account_submit" value="Update">
+
+
+
+</form>
+  </body>
+</HTML>
