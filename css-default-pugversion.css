@@ -367,4 +367,10 @@ iframe{
     float:left;
 }
 
+.grade-table{
+    text-align: center;
+}
 
+.rubric_score input{
+    float: none;
+}
