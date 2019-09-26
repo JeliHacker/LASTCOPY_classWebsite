@@ -7,7 +7,7 @@ body {
     font-family: ProximaNova-Black;
     font-family: 'Poller One';
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 45px;
     background-image: url("space.jpg");
     background-size: contain;
@@ -152,6 +152,7 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
+    font-size: 16px;
 }
 
 
@@ -189,7 +190,7 @@ a{
 a:hover{
     
     color:white;
-    font-size: 26px;
+    font-size: 24px;
     background-color: black; 	
     cursor: url(oth28.cur),auto;
 }
@@ -212,7 +213,7 @@ USERNAME STUFF
 }
 
 .username{
-    font-family: Times New Roman;
+    font-size: 24px;
     color: yellow;
     opacity: 1;
     float: right;
@@ -384,4 +385,8 @@ th, td{
     padding: 10px 20px 30px;
     border-top: 5px solid blue;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+td a:hover{
+    font-size:18px;
 }
