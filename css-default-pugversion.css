@@ -88,7 +88,6 @@ body {
 
 
 .assignment_link{
-    text-align: left;
 }
 
 
@@ -120,8 +119,8 @@ body {
 
 
 .sound:hover{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url(listen2.jpg);
     background-size: cover;
     float: right;
@@ -270,6 +269,23 @@ ANIMATION
 
 */
 h1 {
+  content: "bad boy bradshaw";
+  background-color: black;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.25s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1.25s;
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: black;}
+  50%  {background-color: blue;}
+  100% {background-color: black;}
+}
+
+
+.title {
   content: "bad boy bradshaw";
   background-color: black;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
